@@ -4,10 +4,10 @@ import Hero from '../src/components/Hero'
 
 const About = () => {
   return (
-    <>
-      <Hero />
-      <ProductList />
-    </>
+      <div className="min-h-screen bg-gray-300">
+        <Hero />
+        <ProductList />
+      </div>
   )
 }
 

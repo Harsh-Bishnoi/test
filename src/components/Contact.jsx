@@ -5,7 +5,7 @@ import Button from './common/Button'
 const Contact = () => {
     return (
         <>
-            <div className="flex justify-center items-center bg-gray-300 min-h-screen">
+            <div className="flex justify-center items-center py-30">
                 <div className="max-w-[1140px] px-4 w-full mx-auto">
                     <h2 className='font-mono text-3xl text-center'>Contact</h2>
                     <div className="flex gap-3 justify-center mt-10 flex-col sm:flex-row">

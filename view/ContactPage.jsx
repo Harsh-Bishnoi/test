@@ -4,10 +4,10 @@ import Contact from '../src/components/Contact'
 
 const ContactPage = () => {
     return (
-        <>
+        <div className="min-h-screen bg-gray-300">
             <Hero />
             <Contact />
-        </>
+        </div>
     )
 }
 

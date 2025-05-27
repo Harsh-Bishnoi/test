@@ -9,7 +9,7 @@ const ProfileCard = () => {
     }
     return (
         <>
-            <div className="flex justify-center items-center min-h-screen bg-gray-300">
+            <div className="flex justify-center items-center py-27">
                 <div className="max-w-[1140px] px-4">
                     <h1 className='text-center font-mono text-4xl pb-5 text-black'>Profile Card</h1>
                     <div div className="flex flex-wrap gap-6 justify-center" >

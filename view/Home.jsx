@@ -5,10 +5,10 @@ import Hero from '../src/components/Hero'
 
 const Home = () => {
     return (
-        <>
+        <div className="min-h-screen bg-gray-300">
             <Hero />
             <ProfileCard />
-        </>
+        </div>
     )
 }
 
