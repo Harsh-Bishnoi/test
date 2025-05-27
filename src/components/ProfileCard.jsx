@@ -4,6 +4,9 @@ import my from '../assets/images/svg/my.svg'
 import Button from './common/Button'
 
 const ProfileCard = () => {
+    function ClickBtn() {
+        alert('Button was clicked!');
+    }
     return (
         <>
             <div className="flex justify-center items-center py-20">
@@ -11,7 +14,7 @@ const ProfileCard = () => {
                     <div div className="flex flex-wrap gap-6 justify-center" >
                         <Card img={my} Name="Harsh Bishnoi" Bio="Front End Developer" Contact="8222033295" />
                     </div >
-                    <Button text="Click" />
+                    <Button onClick={ClickBtn} text="Click" />
                 </div>
             </div>
         </>
