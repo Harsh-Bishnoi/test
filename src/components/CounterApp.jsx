@@ -14,7 +14,7 @@ const CounterApp = () => {
 
     return (
         <>
-            <div className="flex justify-center items-center pb-20">
+            <div className="flex justify-center items-center pb-20 bg-gray-300">
                 <div className="max-w-[1140px] px-4 mx-auto flex flex-col justify-center items-center">
                     <div className="font-mono text-3xl">{count}</div>
                     <div className="gap-4 flex justify-center items-center mt-4">

@@ -3,15 +3,15 @@ import { PRODUCT_DETAILS } from '../utils/helper';
 
 const ProductList = () => {
     return (
-        <div className="flex items-center justify-center pb-20">
+        <div className="flex items-center justify-center pb-20 bg-gray-300">
             <div className="max-w-[1140px] px-4 w-full">
                 <div className="flex gap-4 flex-wrap justify-center">
                     {PRODUCT_DETAILS.map((product, index) => (
                         <div key={index} className="border-black border rounded-2xl max-w-[500px] w-full p-3 md:max-w-[350px]" >
-                            <div className="font-mono text-lg font-semibold"> Name : {product.name} </div>
-                            <div className="font-mono text-lg font-medium"> Price : {product.price}  </div>
+                            <div className="font-mono text-lg font-semibold text-black"> Name : {product.name} </div>
+                            <div className="font-mono text-lg font-medium text-black"> Price : {product.price}  </div>
                             {product.feature.map((Feature, i) => (
-                                <p key={i}>Features : {Feature}</p>
+                                <p className='font-mono text-lg font-medium' key={i}>Features : {Feature}</p>
                             ))}
                         </div>
                     ))}

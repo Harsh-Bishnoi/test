@@ -10,7 +10,7 @@ import img_5 from '../assets/images/png/img-5.jpg';
 const Carousel = () => {
     return (
         <>
-            <div className="flex justify-center items-center pb-20">
+            <div className="flex justify-center items-center pb-20 bg-gray-300">
                 <div className="max-w-[1140px] px-4 w-full">
                     <Swiper
                         slidesPerView={1}
