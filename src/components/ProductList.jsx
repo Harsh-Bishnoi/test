@@ -3,7 +3,7 @@ import { PRODUCT_DETAILS } from '../utils/helper';
 
 const ProductList = () => {
     return (
-        <div className="flex items-center justify-center pb-20 bg-gray-300">
+        <div className="flex items-center justify-center bg-gray-300 min-h-screen">
             <div className="max-w-[1140px] px-4 w-full">
                 <div className="flex gap-4 flex-wrap justify-center">
                     {PRODUCT_DETAILS.map((product, index) => (
