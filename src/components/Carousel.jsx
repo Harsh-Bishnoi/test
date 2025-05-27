@@ -12,6 +12,7 @@ const Carousel = () => {
         <>
             <div className="flex justify-center items-center py-45">
                 <div className="max-w-[1140px] px-4 w-full">
+                    <h2 className='font-mono text-4xl pb-5 text-center'>Swiper</h2>
                     <Swiper
                         slidesPerView={1}
                         spaceBetween={10}

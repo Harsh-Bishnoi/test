@@ -7,7 +7,7 @@ const Contact = () => {
         <>
             <div className="flex justify-center items-center py-30">
                 <div className="max-w-[1140px] px-4 w-full mx-auto">
-                    <h2 className='font-mono text-3xl text-center'>Contact</h2>
+                    <h2 className='font-mono text-4xl text-center'>Contact</h2>
                     <div className="flex gap-3 justify-center mt-10 flex-col sm:flex-row">
                         <Input type="text" placeholder="First Name" />
                         <Input type="text" placeholder="Last Name" />

@@ -16,6 +16,7 @@ const CounterApp = () => {
         <>
             <div className="flex justify-center items-center py-50">
                 <div className="max-w-[1140px] px-4 mx-auto flex flex-col justify-center items-center">
+                    <div className="font-mono text-4xl pb-5">Counter App</div>
                     <div className="font-mono text-3xl">{count}</div>
                     <div className="gap-4 flex justify-center items-center mt-4">
                         <div
