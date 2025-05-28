@@ -21,10 +21,14 @@ const CounterApp = () => {
                     <div className="gap-4 flex justify-center items-center mt-4">
                         <div
                             data-tooltip-id="counter-tooltip"
+                            data-tooltip-delay-show={800}
+                            data-tooltip-delay-hide={100}
                             data-tooltip-content="Decrease the counter" >
                             <Button onClick={decrement} text="Decrease" />
                         </div>
                         <div
+                            data-tooltip-delay-show={800}
+                            data-tooltip-delay-hide={100}
                             data-tooltip-id="counter-tooltip-2"
                             data-tooltip-content="Increase the counter"
                         >
@@ -32,6 +36,8 @@ const CounterApp = () => {
                         </div>
                     </div>
                     <div
+                        data-tooltip-delay-show={800}
+                        data-tooltip-delay-hide={100}
                         data-tooltip-id="counter-tooltip"
                         data-tooltip-content={count === 0 ? "Counter is already zero" : "Reset the counter"}
                     >
